@@ -149,7 +149,7 @@ var controller = {
             }
 
         } else {
-            return res.status(200).send({
+            return res.status(500).send({
                 message: fileName
             });
         }
